@@ -80,6 +80,7 @@ body{
 
 .principalGaleria{
     display: grid;
+
     grid-template-columns: 30vh 30vh 30vh 30vh 30vh;
     gap: 3vh;
    
@@ -89,4 +90,54 @@ body{
     width: 100%;
     height: 100%;
 }
+.titulo{
+    grid-area: "titulo";
+}
+.imagen1{
+    grid-area: "img1";
+    grid-row: 2/4;
+}
+.imagen2{
+    grid-area: "img2";
+    grid-row: 2/4;
+}
+.imagen3{
+    grid-area: "img3";
+    grid-row: 2/4;
+}
+.imagen4{
+    grid-area: "img4";
+    grid-row: 2/4;
+}
+.imagen5{
+    grid-area: "img5";
+    grid-row: 2/4;
+}
+.titulo{
+    grid-column: 1/3;
+}
 /* Efectos Galeria */
+
+.imagen1__1{
+    border: 3px solid black;
+    transform: skew(-5deg);
+}
+.imagen2__2{
+    border: 3px solid black;
+    transform: skew(-5deg);
+}
+.imagen3__3{
+    border: 3px solid black;
+    transform: skew(-5deg);
+}
+.imagen4__4{
+    border: 3px solid black;
+    transform: skew(-5deg);
+}
+.imagen5__5{
+    border: 3px solid black;
+    transform: skew(-5deg);
+}
+
+/* Media Query */
+
