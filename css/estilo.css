@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* gradiente de fondo */
+body{
+    background-image: linear-gradient(to bottom,rgb(192, 164, 164),darkblue);
+}
+/* diseño pagina */
+.contenedor{
+    display: grid;
+    grid-template-rows: 10vh 80vh 10vh;
+}
+
+/* Diseño menu */
+.menu li{
+    display: inline;    
+    padding: 10px;
+    font-size: large;
+   
+}
+.inicio:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.quienSomos:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.servicios:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.galeria:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.contacto:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+/* pagina principal */
+.seccion1{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.principal h1{
+    font-style: italic;
+        
+}
+.principal p{
+    font-size:x-large;
+}
+/* Diseño Footer */
+.menuFooter li{
+    display: inline;
+    float: right;
+    padding: 10px;
+    font-size: x-large;
+
+}
+.menuFooter a{
+    color:rgb(214, 189, 189);
+}
+.menuFooterFB:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.menuFooterWSP:hover{
+    font-size: x-large;
+    font-style: italic;
+}
+.menuFooterIG:hover{
+    font-size: x-large;
+    font-style: italic;
+}
